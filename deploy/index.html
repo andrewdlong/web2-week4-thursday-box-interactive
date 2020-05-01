@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Google Font -->
+     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700" rel="stylesheet">
+     <!-- Font Awesome -->
+     <script src="https://kit.fontawesome.com/3c79b583ac.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Selectors</title>
+</head>
+
+<body>
+
+    <section class="container-grid" id="section-1">
+        <div class="grid-content">
+            <section>
+                <div>
+                    <img src="img/box.svg" alt="box icon">
+                </div>
+                <h1>Box Model</h1>
+            </section>
+        </div>
+    </section>
+    <section class="container-grid sections" id="section-2">
+            <div class="grid-content">
+                <section>
+                    <article class="content-container">
+                        <div>
+                            <h1 class="section-title">The CSS Box Model</h1>
+                            <p>In CSS, the term Box Model is used when talking about design and layouts. It is essentially a box that wraps around all HTML elements and it consists of: margins, borders, padding, and the actual content. When you define a width and a height for your box using CSS, you are defining not the entire area taken up by the content, padding, border and margin. You are actually just defining the content area itself - the bit right in the middle.</p>
+                        </div>
+                    </article>
+                </section>
+            </div>
+        </section>
+    <section class="container-grid sections" id="section-3">
+                <div class="grid-content">
+                    <section>
+                        <article class="content-container-3">
+                            <div>
+                                <section id="top-section">
+                                    <img src="img/calculate.svg" alt="calculate icon" id="icon">
+                                    <h1 class="section-title">How to calculate the Box Model</h1>
+                                </section>
+                                
+            
+                                <section id="demo-section">
+                                    <aside>
+                                        <div id="demo-container">
+                                            <h1>Hello There!</h1>
+                                        </div>
+                                    </aside>
+            
+                                    <section>
+                                        <ul>
+                                            <li>
+                                                <h3>Add 20px of padding left</h3>
+                                                <div class="switch">
+                                                    <input class="switch-input" id="paddingSwitch" type="checkbox" name="paddingSwitch">
+                                                    <label class="switch-paddle" for="paddingSwitch"> </label>
+                                                </div>
+                                            </li>
+            
+                                            <li>
+                                                <h3>Add 20px of margin left</h3>
+                                                <div class="switch">
+                                                    <input class="switch-input" id="marginSwitch" type="checkbox" name="marginSwitch">
+                                                    <label class="switch-paddle" for="marginSwitch"></label>
+                                                </div>
+                                            </li>
+            
+                                            <li>
+                                                <h3>Add 3px border</h3>
+                                                <div class="switch">
+                                                    <input class="switch-input" id="borderSwitch" type="checkbox" name="borderSwitch">
+                                                    <label class="switch-paddle" for="borderSwitch"></label>
+                                                </div>
+                                            </li>
+            
+                                            <li id="img-total">
+                                                <h3>Total text width:</h3>
+                                                <h4><span></span></h4>
+                                            </li>
+                                        </ul>
+                                    </section>
+                                </section>
+                                
+                            </div>
+                        </article>
+                    </section>
+                </div>
+            </section>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Greensock -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+
+    <script src="js/scripts-min.js"></script>
+</body>
+
+</html>
